@@ -16,6 +16,7 @@
 		2E072B53260E451C0029009F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E072B52260E451C0029009F /* OnboardingView.swift */; };
 		2E072B57260E46BC0029009F /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E072B56260E46BC0029009F /* FruitModel.swift */; };
 		2E072B5C260E47740029009F /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E072B5B260E47740029009F /* FruitData.swift */; };
+		2E5BE6BE260E5408004CA8B2 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5BE6BD260E5408004CA8B2 /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2E072B52260E451C0029009F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		2E072B56260E46BC0029009F /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		2E072B5B260E47740029009F /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		2E5BE6BD260E5408004CA8B2 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				2E072B4B260E36480029009F /* FruitCardView.swift */,
 				2E072B4F260E3B4D0029009F /* StartButtonView.swift */,
+				2E5BE6BD260E5408004CA8B2 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				2E072B5C260E47740029009F /* FruitData.swift in Sources */,
 				2E072B4C260E36480029009F /* FruitCardView.swift in Sources */,
+				2E5BE6BE260E5408004CA8B2 /* FruitRowView.swift in Sources */,
 				2E072B50260E3B4D0029009F /* StartButtonView.swift in Sources */,
 				2E072B39260E303C0029009F /* ContentView.swift in Sources */,
 				2E072B53260E451C0029009F /* OnboardingView.swift in Sources */,
