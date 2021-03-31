@@ -23,7 +23,6 @@ struct SettingsView: View {
                         label:
                             SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
                     ) {
-                        Divider().padding(.vertical)
                         HStack(alignment: .center, spacing: 10) {
                             Image("logo")
                                 .resizable()
@@ -40,6 +39,18 @@ struct SettingsView: View {
                     
                     
                     // MARK: - SECTION 3
+                    GroupBox(
+                        label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
+                    ) {
+                        SettingsRowView(name: "Developer", content: "Azhar Islam")
+                        SettingsRowView(name: "Designer", content: "Robert Patras")
+                        SettingsRowView(name: "Compatibility", content: "iOS 14")
+                        SettingsRowView(name: "Website", linkLabel: "Appza Ltd", linkDestination: "appza.co.uk")
+                        SettingsRowView(name: "Twitter", linkLabel: "@azh_isl", linkDestination: "twitter.com/azh_isl")
+                        SettingsRowView(name: "SwiftUI", content: "2.0")
+                        SettingsRowView(name: "Version", content: "1.1.0")
+                    } //: BOX
+                    
                 } //: VSTACK
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
                 .navigationBarItems(trailing: Button(action: {
