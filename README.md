@@ -1,6 +1,7 @@
 # FruitPedia
+An app built in SwiftUI to show information about different fruits. I built this app to practice SwiftUI fundamentals.
 
-An app built in SwiftUI. This app is to practice the fundamentals.
+[![Screenshot-2022-04-20-at-06-29-17.png](https://i.postimg.cc/4yvwcP8H/Screenshot-2022-04-20-at-06-29-17.png)](https://postimg.cc/q6R8VsHp)
 
 # Installation
 
